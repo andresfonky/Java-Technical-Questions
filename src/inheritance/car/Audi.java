@@ -1,6 +1,6 @@
-package inheritance;
+package inheritance.car;
 
-public class Audi extends Car{
+public class Audi extends Car {
 	
 	private String model;
 	
@@ -45,5 +45,4 @@ public class Audi extends Car{
 		return (this.engine == a.getEngine() && this.model.equals(a.getModel()));
 		
 	}
-	
 }

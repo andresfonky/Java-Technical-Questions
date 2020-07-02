@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance.car;
 
 public class Polymorphism {
 	
@@ -15,7 +15,6 @@ public class Polymorphism {
 		System.out.println("b: " + b.getId());
 		
 		System.out.println(c.equals(b));
-		
 		b.doNothing("S", 2);
 		b.doNothing(2, "S");
 		

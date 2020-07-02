@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance.car;
 
 public abstract class Car implements Comparable<Car> {
 	
@@ -12,7 +12,7 @@ public abstract class Car implements Comparable<Car> {
 	public void run() {
 		System.out.println("Car is running");
 	}
-
+	
 	public int getEngine() {
 		return engine;
 	}
