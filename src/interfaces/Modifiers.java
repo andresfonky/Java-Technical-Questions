@@ -1,5 +1,6 @@
 package interfaces;
 
+//Interfaces can only be public
 public interface Modifiers {
 	public int calculate();
 

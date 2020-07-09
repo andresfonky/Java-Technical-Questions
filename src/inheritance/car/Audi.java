@@ -25,6 +25,7 @@ public class Audi extends Car {
 		System.out.println("i: " + i + " String: " + s );
 	}
 	
+	// public void calculate(int i, int j) { Error -> returning type doesn't polymorphised method
 	public void calculate(int i) {
 		int p = super.calculate(i, i);
 		System.out.println(p*i);

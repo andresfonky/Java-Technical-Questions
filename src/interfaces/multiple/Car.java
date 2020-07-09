@@ -30,7 +30,7 @@ public class Car implements Vehicle, Alarm {
         return "The car is slowing down.";
     }
 
-    //TODO
+    // Implementation of the default method, needed because is available in two interfaces
 	@Override
 	public String turnAlarmOff() {
 		return Vehicle.super.turnAlarmOff() + Alarm.super.turnAlarmOff();

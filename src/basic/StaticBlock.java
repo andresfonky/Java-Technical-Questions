@@ -1,5 +1,6 @@
 package basic;
 
+// Example of static blocks execution order
 public class StaticBlock {
 	public static void main(String args[]) {
 		SB a = new SB();
@@ -25,8 +26,8 @@ class SB {
 		mystr = "Block1";
 	}
 
-	// Second static block
-	static {
+	// Executed when constructor call, before constructor
+	{
 		System.out.println("Static Block 2");
 		num = 98;
 		mystr = "Block2";

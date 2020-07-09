@@ -10,7 +10,8 @@ public class Treeset {
 		TreeSet<String> treeSet = new TreeSet<>();
 		
 		treeSet.add("Geeks");
-		treeSet.add("for");
+		treeSet.add("for"); //Order: be careful with capital letters and lowercase
+		treeSet.add("For");
 		treeSet.add("Geeks");
 		treeSet.add("GeeksforGeeks");
 

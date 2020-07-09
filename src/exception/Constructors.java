@@ -12,6 +12,10 @@ public class Constructors {
 	}*/
 		
 	public static void main(String[] args) {
-		Test test = new Test();
+		try {
+			Constructors constr = new Constructors();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 }

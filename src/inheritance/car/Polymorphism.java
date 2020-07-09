@@ -11,6 +11,7 @@ public class Polymorphism {
 		
 		Car c = new Audi(5, "A");
 		c.setId(789);
+		c.run();
 		System.out.println("c: " + c.getId());
 		System.out.println("b: " + b.getId());
 		

@@ -1,5 +1,6 @@
 package inheritance;
 
+//Private and Static methods are not inherited
 public class ChooseMethod {
 
 	public static void main(String args[]) {

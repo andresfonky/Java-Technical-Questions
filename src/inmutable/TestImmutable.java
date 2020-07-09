@@ -1,5 +1,9 @@
 package inmutable;
 
+//Immutable class
+// - Variables private
+// - Remove setters
+// - Return copy of objects
 public class TestImmutable {
 	
 	public static void main(String[] args) {

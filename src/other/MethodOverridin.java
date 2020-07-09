@@ -17,7 +17,7 @@ class Base {
 }
 
 class Derived extends Base {
-	//Error void foo() {
+	//void foo() { Error
 	public void foo() {
 		System.out.println("Hola");
 	}
