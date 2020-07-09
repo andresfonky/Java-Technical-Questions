@@ -1,4 +1,4 @@
-package basic;
+package staticvar;
 
 // Example of static blocks execution order
 public class StaticBlock {

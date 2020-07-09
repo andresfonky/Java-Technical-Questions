@@ -1,4 +1,4 @@
-package basic;
+package staticvar;
 
 // When static objects are initialized
 public class StaticInitialization {
